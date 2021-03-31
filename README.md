@@ -1,28 +1,14 @@
-
-<p align="center">
-  <a href="https://www.chromatic.com/">
-    <img alt="Chromatic" src="https://avatars2.githubusercontent.com/u/24584319?s=200&v=4" width="60" />
-  </a>
-</p>
-
 <h1 align="center">
-  Chromatic's Intro to Storybook React template
+  Storybook React template
 </h1>
 
-This template ships with the main React and Storybook configuration files you'll need to get up and running fast.
+This template ships with the main React and Storybook configuration files to get up and running fast.
 
 ## 🚅  Quick start
 
-1.  **Create the application.**
+1.  **Fork the repository.**
 
-    Use [degit](https://github.com/Rich-Harris/degit) to get this template.
-
-    ```shell
-    # Clone the template
-    npx degit chromaui/intro-storybook-react-template taskbox
-    ```
-
-1.  **Install the dependencies.**
+2.  **Clone repo to the local machine.**
 
     Navigate into your new site’s directory and install the necessary dependencies.
 
@@ -34,13 +20,17 @@ This template ships with the main React and Storybook configuration files you'll
     yarn
     ```
 
-1.  **Open the source code and start editing!**
+3.  **Open the source code and start editing!**
 
     Open the `taskbox` directory in your code editor of choice and building your first component!
 
-1.  **Browse your stories!**
+4.  **Browse your stories!**
 
     Run `yarn storybook` to see your component's stories at `http://localhost:6006`
+
+5.  **Access the front end app!**
+
+    Run `yarn start` to start running the front end app at `http://localhost:3000`
 
 ## 🔎 What's inside?
 
@@ -75,13 +65,3 @@ A quick look at the top-level files and directories included with this template.
 8. **`yarn.lock`**: This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(Do not change it manually).**
 
 9. **`README.md`**: A text file containing useful reference information about the project.
-
-## Contribute
-
-If you encounter an issue with the template, we encourage you to open an issue in this template's repository.
-
-## Learning Storybook
-
-1. Read our introductory tutorial at [Learn Storybook](https://www.learnstorybook.com/intro-to-storybook/react/en/get-started/).
-2. Learn how to transform your component libraries into design systems in our [Design Systems for Developers](https://www.learnstorybook.com/design-systems-for-developers/) tutorial.
-2. See our official documentation at [Storybook](https://storybook.js.org/).
